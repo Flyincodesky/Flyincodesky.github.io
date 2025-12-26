@@ -26,7 +26,22 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-
+<style>
+  /* 全屏背景图设置 */
+  body {
+    background: url('{{ "/assets/img/hero-bg.jpg" | relative_url }}') no-repeat center center fixed !important;
+    background-size: cover !important;
+  }
+  
+  /* 内容区加一个半透明背景 */
+  .post {
+    background: rgba(255, 255, 255, 0.88) !important;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    backdrop-filter: blur(5px);
+  }
+</style>
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
