@@ -29,7 +29,7 @@ latest_posts:
 <style>
   /* 全屏背景图设置 */
   body {
-    background: url('{{ "/assets/img/hero-bg.jpg" | relative_url }}') no-repeat center center fixed !important;
+    background: url('{{ "/assets/img/back.jpg" | relative_url }}') no-repeat center center fixed !important;
     background-size: cover !important;
   }
   
