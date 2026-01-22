@@ -412,135 +412,57 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-获得-国家优秀青年科学基金项目-海外-视觉图像特征编码和理解-2023-01-2025-12",
+          title: '获得 国家优秀青年科学基金项目（海外）：视觉图像特征编码和理解 (2023.01-2025.12).',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-主持-国家自然科学基金面上项目-基于弱监督深度学习的数字病理切片的自动标注和检索-2023-01-2026-12",
+          title: '主持 国家自然科学基金面上项目：基于弱监督深度学习的数字病理切片的自动标注和检索 (2023.01-2026.12).',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-论文-on-which-nodes-does-gcn-fail-enhancing-gcn-from-the-node-perspective-被-icml-2024-ccf-a-录用",
+          title: '论文 On Which Nodes Does GCN Fail? Enhancing GCN From the Node Perspective...',
           description: "",
-          section: "News",},{id: "news-张教授受邀在国际软件工程大会-icse-上作主题报告",
-          title: '张教授受邀在国际软件工程大会 (ICSE) 上作主题报告。',
+          section: "News",},{id: "news-论文-act-diffusion-efficient-adversarial-consistency-training-for-one-step-diffusion-models-被-cvpr-2024-ccf-a-录用",
+          title: '论文 ACT-Diffusion: Efficient Adversarial Consistency Training for One-step Diffusion Models 被 CVPR 2024...',
           description: "",
-          section: "News",},{id: "news-与微软亚洲研究院签订合作协议-共同开展前沿ai技术研究",
-          title: '与微软亚洲研究院签订合作协议，共同开展前沿AI技术研究。',
+          section: "News",},{id: "news-论文-sconu-selective-conformal-uncertainty-in-large-language-models-被-acl-2025-ccf-a-录用",
+          title: '论文 SConU: Selective Conformal Uncertainty in Large Language Models 被 ACL 2025 (CCF-A)...',
           description: "",
-          section: "News",},{id: "news-实验室开源项目-codeanalyzer-在-github-上获得超过-5000-stars-感谢社区的支持",
-          title: '实验室开源项目 CodeAnalyzer 在 GitHub 上获得超过 5000 stars！感谢社区的支持。',
+          section: "News",},{id: "news-主持-科技部重大专项子课题-重大慢病诊疗关键检验项目医学决定水平的建立与应用研究-2025-08-2029-07",
+          title: '主持 科技部重大专项子课题：重大慢病诊疗关键检验项目医学决定水平的建立与应用研究 (2025.08-2029.07).',
           description: "",
-          section: "News",},{id: "news-博士生王芳获得校级优秀学生奖学金和国家奖学金",
-          title: '博士生王芳获得校级优秀学生奖学金和国家奖学金。',
-          description: "",
-          section: "News",},{id: "news-欢迎3名新研究生加入实验室-祝愿你们在这里收获知识-友谊和成长-raised-hands",
-          title: '欢迎3名新研究生加入实验室！祝愿你们在这里收获知识、友谊和成长。:raised_hands:',
-          description: "",
-          section: "News",},{id: "news-实验室获得国家自然科学基金重点项目资助-研究经费500万元",
-          title: '实验室获得国家自然科学基金重点项目资助，研究经费500万元。',
-          description: "",
-          section: "News",},{id: "news-张教授当选-ieee-fellow-表彰其在软件工程和人工智能领域的杰出贡献",
-          title: '张教授当选 IEEE Fellow，表彰其在软件工程和人工智能领域的杰出贡献。',
-          description: "",
-          section: "News",},{id: "news-实验室成功举办-ai与软件工程前沿技术-学术研讨会-来自国内外20余所高校的专家学者参加",
-          title: '实验室成功举办”AI与软件工程前沿技术”学术研讨会，来自国内外20余所高校的专家学者参加。',
-          description: "",
-          section: "News",},{id: "news-恭喜博士生李明的论文被-neurips-2025-接收-这是实验室在顶会上的又一重要成果",
-          title: '恭喜博士生李明的论文被 NeurIPS 2025 接收！这是实验室在顶会上的又一重要成果。',
-          description: "",
-          section: "News",},{id: "news-我们的论文-基于深度学习的代码漏洞检测方法-被-icse-2026-录用-tada",
-          title: '我们的论文《基于深度学习的代码漏洞检测方法》被 ICSE 2026 录用！:tada:',
-          description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-视觉图像特征编码和理解",
+          title: '视觉图像特征编码和理解',
+          description: "国家自然科学基金优青（海外）项目 (2023.01-2025.12)",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/project_1_nsfc_overseas/";
+            },},{id: "projects-基于弱监督深度学习的数字病理切片的自动标注和检索",
+          title: '基于弱监督深度学习的数字病理切片的自动标注和检索',
+          description: "国家自然科学基金面上项目 (2023.01-2026.12)",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/project_2_nsfc_general/";
+            },},{id: "projects-支持机器学习自动化的元学习理论与应用",
+          title: '支持机器学习自动化的元学习理论与应用',
+          description: "科技部重点研发子课题 (2022.12-2027.11)",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/project_3_most_rd/";
+            },},{id: "projects-重大慢病诊疗关键检验项目医学决定水平的建立与应用研究",
+          title: '重大慢病诊疗关键检验项目医学决定水平的建立与应用研究',
+          description: "科技部重大专项子课题 (2025.08-2029.07)",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
-            },},{id: "projects-智能代码生成系统",
-          title: '智能代码生成系统',
-          description: "基于大语言模型的智能代码生成与优化",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/project_code_generation/";
-            },},{id: "projects-分布式机器学习框架",
-          title: '分布式机器学习框架',
-          description: "高效的大规模深度学习训练系统",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/project_distributed_ml/";
-            },},{id: "projects-医学影像辅助诊断",
-          title: '医学影像辅助诊断',
-          description: "基于深度学习的医学图像分析系统",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/project_medical_imaging/";
-            },},{id: "projects-多模态理解系统",
-          title: '多模态理解系统',
-          description: "融合视觉、语言、音频的智能理解系统",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/project_multimodal/";
-            },},{id: "projects-智能推荐系统",
-          title: '智能推荐系统',
-          description: "基于图神经网络的个性化推荐算法",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/project_recommendation/";
-            },},{id: "projects-安全漏洞检测工具",
-          title: '安全漏洞检测工具',
-          description: "智能化软件安全漏洞检测与修复系统",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/project_vulnerability_detection/";
+              window.location.href = "/projects/project_4_most_major/";
             },},{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("/cv/", "_blank");
         },
       },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%78%73%73%68%69%32%30%32%31@%75%65%73%74%63.%65%64%75.%63%6E", "_blank");
         },
       },{
         id: 'social-inspire',
