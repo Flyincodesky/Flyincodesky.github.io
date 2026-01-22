@@ -1,191 +1,494 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-% ========================================
-% 2026年论文
-% ========================================
-
-@inproceedings{zhang2026deepvul,
-  abbr={ICSE},
-  title={DeepVul: Deep Learning for Vulnerability Detection in Source Code},
-  author={Zhang†, Professor and Li, Ming and Wang, Fang},
-  booktitle={Proceedings of the 48th International Conference on Software Engineering (ICSE)},
-  pages={1--12},
-  year={2026},
-  publisher={ACM},
-  abstract={We propose DeepVul, a deep learning-based approach for automatic vulnerability detection in source code. Our method combines static analysis and neural networks to identify security vulnerabilities with high precision and recall. Experimental results on real-world projects demonstrate that DeepVul outperforms state-of-the-art tools by 15-20%.},
-  pdf={deepvul_icse2026.pdf},
-  code={https://github.com/lab/deepvul},
-  selected={true},
-  bibtex_show={true},
-  annotation={† Corresponding author}
-}
-
-% ========================================
-% 2025年论文
-% ========================================
-
-@inproceedings{li2025efficient,
-  abbr={NeurIPS},
-  title={Efficient Neural Network Compression via Adaptive Pruning},
-  author={Li†, Ming and Zhang, Professor and Chen, Wei},
-  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
-  year={2025},
-  abstract={This paper presents an adaptive pruning method for neural network compression. Our approach dynamically adjusts the pruning rate based on layer importance, achieving 80% model size reduction while maintaining accuracy. Experiments on ImageNet demonstrate superior performance compared to existing methods.},
-  pdf={efficient_pruning_neurips2025.pdf},
-  code={https://github.com/lab/adaptive-pruning},
-  slides={neurips2025_slides.pdf},
-  selected={true},
-  award={Outstanding Paper Nominee},
-  award_name={NeurIPS 2025 杰出论文提名奖},
-  bibtex_show={true},
-  annotation={† Equal contribution}
-}
-
-@inproceedings{wang2025fuzzing,
-  abbr={FSE},
-  title={Intelligent Fuzzing for Infrastructure-as-Code Programs},
-  author={Wang, Fang and Zhang†, Professor},
-  booktitle={Proceedings of the 33rd ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)},
-  pages={100--112},
-  year={2025},
-  publisher={ACM},
-  abstract={We present an intelligent fuzzing technique specifically designed for Infrastructure-as-Code programs. Our method uses machine learning to guide test case generation, discovering configuration errors and security vulnerabilities efficiently.},
-  pdf={fuzzing_fse2025.pdf},
-  code={https://github.com/lab/iac-fuzzing},
-  bibtex_show={true},
-  annotation={† Corresponding author}
-}
-
-@inproceedings{chen2025code2text,
-  abbr={ACL},
-  title={Code2Text: Neural Code Summarization with Structural Information},
-  author={Chen, Wei and Li, Ming and Zhang†, Professor},
-  booktitle={Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL)},
-  pages={1234--1245},
-  year={2025},
-  abstract={We propose Code2Text, a neural approach for automatic code summarization. By incorporating structural information from abstract syntax trees, our model generates more accurate and informative code descriptions compared to sequence-to-sequence baselines.},
-  pdf={code2text_acl2025.pdf},
-  code={https://github.com/lab/code2text},
-  bibtex_show={true},
-  annotation={† Corresponding author}
-}
-
-% ========================================
-% 2024年论文
-% ========================================
-
-@inproceedings{zhang2024distributed,
-  abbr={MLSys},
-  title={Scalable Distributed Training for Large Language Models},
-  author={Zhang†, Professor and Wang, Fang and Zhou, Jing},
-  booktitle={Proceedings of the 7th Conference on Machine Learning and Systems (MLSys)},
-  year={2024},
-  abstract={This paper presents a scalable distributed training system for large language models. Our system achieves near-linear speedup on 1000+ GPUs through optimized communication patterns and adaptive parallelism strategies.},
-  pdf={distributed_training_mlsys2024.pdf},
-  code={https://github.com/lab/distributed-ml},
-  selected={true},
-  bibtex_show={true},
-  annotation={† Corresponding author}
-}
-
-@inproceedings{wang2024bugdetection,
-  abbr={ICSE},
-  title={Learning to Detect Bugs in Infrastructure-as-Code Scripts},
-  author={Wang, Fang and Zhang†, Professor and Wu, Jie},
-  booktitle={Proceedings of the 46th International Conference on Software Engineering (ICSE)},
-  pages={45--56},
-  year={2024},
-  publisher={ACM},
-  abstract={We introduce a learning-based approach for detecting bugs in Infrastructure-as-Code scripts. Our method combines program analysis with deep learning to identify configuration errors and security issues.},
-  pdf={bug_detection_icse2024.pdf},
-  code={https://github.com/lab/iac-bug-detection},
-  award={Distinguished Paper Award},
-  award_name={ICSE 2024 杰出论文奖},
-  selected={true},
-  bibtex_show={true},
-  annotation={† Corresponding author}
-}
-
-@article{li2024vision,
-  abbr={CVPR},
-  title={Multi-Scale Feature Fusion for Object Detection},
-  author={Li, Ming and Liu, Yang and Zhang†, Professor},
-  journal={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  pages={2345--2356},
-  year={2024},
-  abstract={We propose a multi-scale feature fusion network for object detection. Our approach effectively combines features from different scales, achieving state-of-the-art performance on COCO dataset.},
-  pdf={object_detection_cvpr2024.pdf},
-  code={https://github.com/lab/msff-detection},
-  bibtex_show={true},
-  annotation={† Corresponding author}
-}
-
-% ========================================
-% 2023年论文
-% ========================================
-
-@inproceedings{zhang2023recommender,
-  abbr={KDD},
-  title={Graph Neural Networks for Personalized Recommendation},
-  author={Zhang†, Professor and Zhao, Min and Li, Ming},
-  booktitle={Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)},
-  pages={3456--3467},
-  year={2023},
-  abstract={This paper proposes a graph neural network approach for personalized recommendation. By modeling user-item interactions as a heterogeneous graph, our method captures complex relationships and achieves superior recommendation quality.},
-  pdf={gnn_recommendation_kdd2023.pdf},
-  code={https://github.com/lab/gnn-recommender},
-  selected={true},
-  bibtex_show={true},
-  annotation={† Corresponding author}
-}
-
-@inproceedings{chen2023program,
+@inproceedings{shi2020loss,
   abbr={AAAI},
-  title={Neural Program Synthesis with Structural Constraints},
-  author={Chen, Wei and Zhang†, Professor},
-  booktitle={Proceedings of the 37th AAAI Conference on Artificial Intelligence (AAAI)},
-  pages={4567--4578},
-  year={2023},
-  abstract={We present a neural program synthesis approach that incorporates structural constraints. Our method generates syntactically correct and semantically meaningful programs from natural language descriptions.},
-  pdf={program_synthesis_aaai2023.pdf},
-  code={https://github.com/lab/neural-synthesis},
+  title={Loss-based attention for deep multiple instance learning},
+  author={Shi, Xiaoshuang and Xing, Fuyong and Xie, Yuanpu and Zhang, Zizhao and Cui, Lei and Yang, Lin},
+  booktitle={AAAI Conference on Artificial Intelligence},
+  year={2020},
+  note={Spotlight, ~20\% acceptance rate, CCF-A},
+  preview={brownian-motion.gif},
   bibtex_show={true},
-  annotation={† Corresponding author}
+  pdf={true},
+  code={true},
+  abstract={We propose a new loss-based attention mechanism... (Abstract placeholder)},
+  selected={true}
 }
 
-% ========================================
-% 2022年论文
-% ========================================
+@article{shi2021loss,
+  abbr={TIP},
+  title={Loss-based Attention for Interpreting Image-level Prediction of Convolutional Neural Networks},
+  author={Shi, Xiaoshuang and Xing, Fuyong and Xu, Kaidi and Chen, Pingjun and Liang, Yun and Lu, Zhiyong and Guo, Zhenhua},
+  journal={IEEE Transactions on Image Processing},
+  volume={30},
+  pages={1662--1675},
+  year={2021},
+  note={CCF-A},
+  bibtex_show={true},
+  pdf={true},
+  code={true},
+  abstract={This paper presents a novel approach... (Abstract placeholder)},
+  selected={true}
+}
 
-@inproceedings{wang2022testing,
-  abbr={ASE},
-  title={Automated Testing for Deep Learning Systems},
-  author={Wang, Fang and Li, Ming and Zhang†, Professor},
-  booktitle={Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering (ASE)},
-  pages={123--135},
+@article{li2022fsnet,
+  abbr={TETCI},
+  title={FSNet: Dual Interpretable Graph Convolutional Network for Alzheimer's Disease Analysis},
+  author={Li+, Hengxin and Shi+, Xiaoshuang and Zhu, Xiaofeng and Wang, Shuihua and Zhang, Zheng},
+  journal={IEEE Transactions on Emerging Topics in Computational Intelligence},
   year={2022},
-  publisher={IEEE},
-  abstract={We propose an automated testing framework for deep learning systems. Our approach generates diverse test inputs to expose bugs and vulnerabilities in neural networks.},
-  pdf={dl_testing_ase2022.pdf},
-  code={https://github.com/lab/dl-testing},
+  note={中科院JCR二区},
   bibtex_show={true},
-  annotation={† Corresponding author}
-}
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+  pdf={true},
+  code={true},
+  abstract={Graph Convolutional Networks (GCNs) have been successfully applied... (Abstract placeholder)}
 }
 
-@book{przibram1967letters,
+@inproceedings{xiao2022dual,
+  abbr={MICCAI},
+  title={Dual-graph learning convolutional networks for interpretable alzheimer’s disease diagnosis},
+  author={Xiao, Tingsong and Zeng, Lu and Shi*, Xiaoshuang and Zhu*, Xiaofeng and Wu, Guorong},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)},
+  pages={406--415},
+  year={2022},
+  note={CCF-B},
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+  pdf={true},
+  code={true},
+  abstract={Abstract placeholder...}
+}
+
+@article{xiang2023multi,
+  abbr={MIA},
+  title={Multi-scale representation attention based deep multiple instance learning for gigapixel whole slide image analysis},
+  author={Xiang, Hangchen and Shen, Junyi and Yan, Qingguo and Xu*, Meilian and Shi*, Xiaoshuang and Zhu, Xiaofeng},
+  journal={Medical Image Analysis},
+  volume={89},
+  pages={102890},
+  year={2023},
+  note={中科院JCR一区},
+  bibtex_show={true},
+  pdf={true},
+  code={true},
+  abstract={Abstract placeholder...}
+}
+
+@article{zhan2023igcnn,
+  abbr={IPM},
+  title={IGCNN-FC: Boosting interpretability and generalization of convolutional neural networks for few chest X-rays analysis},
+  author={Zhan, Mengmeng and Shi*, Xiaoshuang and Liu, Fangqi and Hu, Rongyao},
+  journal={Information Processing & Management},
+  volume={60},
+  pages={103258},
+  year={2023},
+  note={中科院JCR一区},
+  bibtex_show={true},
+  pdf={true},
+  code={true},
+  abstract={Abstract placeholder...}
+}
+
+@article{xu2024interpretable,
+  abbr={PR},
+  title={Interpretable medical deep framework by logits-constraint attention guiding graph-based multi-scale fusion for Alzheimer’s disease analysis},
+  author={Xu, Jinghao and Yuan, Chenxi and Ma, Xiaochuan and Shang*, Huifang and Shi*, Xiaoshuang and Zhu, Xiaofeng},
+  journal={Pattern Recognition},
+  volume={152},
+  pages={110450},
+  year={2024},
+  note={中科院JCR一区},
+  bibtex_show={true},
+  pdf={true},
+  code={true},
+  abstract={Abstract placeholder...}
+}
+
+@inproceedings{huang2024on,
+  abbr={ICML},
+  title={On Which Nodes Does GCN Fail? Enhancing GCN From the Node Perspective},
+  author={Huang, Jincheng and Shen, Jialie and Shi*, Xiaoshuang and Zhu*, Xiaofeng},
+  booktitle={International Conference on Machine Learning (ICML)},
+  year={2024},
+  note={CCF-A},
+  bibtex_show={true},
+  pdf={true},
+  code={true},
+  abstract={Abstract placeholder...},
+  selected={true}
+}
+
+@inproceedings{sun2024caterpillar,
+  abbr={ACM MM},
+  title={Caterpillar: A Pure-MLP Architecture with Shifted-Pillars-Concatenation},
+  author={Sun, Jin and Shi*, Xiaoshuang and Wang, Zhiyuan and Xu, Kaidi and Shen, Heng Tao and Zhu, Xiaofeng},
+  booktitle={Proceedings of the ACM International Conference on Multimedia (ACM MM)},
+  pages={7123--7132},
+  year={2024},
+  note={CCF-A},
+  bibtex_show={true},
+  pdf={true},
+  code={true},
+  abstract={Abstract placeholder...},
+  selected={true}
+}
+
+@article{jin2025dynamic,
+  abbr={MIA},
+  title={Dynamic graph based weakly supervised deep hashing for whole slide image classification and retrieval},
+  author={Jin, Haochen and Shen, Junyi and Cui, Lei and Shi*, Xiaoshuang and Li*, Kang and Zhu, Xiaofeng},
+  journal={Medical Image Analysis},
+  pages={103468},
+  year={2025},
+  note={中科院JCR一区},
+  bibtex_show={true},
+  pdf={true},
+  code={true},
+  abstract={Abstract placeholder...}
+}
+
+@article{xu2025interpretable2,
+  abbr={InfoFusion},
+  title={Interpretable multi-view fusion network via multi-view dual alignment and private bias filtering for Alzheimer’s disease analysis},
+  author={Xu, Jinghao and Yuan, Chenxi and Jing, Yi and Shang*, Huifang and Shi*, Xiaoshuang and Zhu, Xiaofeng},
+  journal={Information Fusion},
+  pages={103579},
+  year={2025},
+  note={中科院JCR一区},
+  bibtex_show={true},
+  pdf={true},
+  code={true},
+  abstract={Abstract placeholder...}
+}
+
+@article{shi2020graph,
+  abbr={MIA},
+  title={Graph temporal ensembling based semi-supervised convolutional neural network with noisy labels for histopathology image analysis},
+  author={Shi, Xiaoshuang and Su, Hai and Xing, Fuyong and Liang, Yun and Qu, Gang and Yang, Lin},
+  journal={Medical Image Analysis},
+  volume={60},
+  pages={101624},
+  year={2020},
+  note={中科院JCR一区},
+  bibtex_show={true},
+  pdf={true},
+  code={true},
+  abstract={Abstract placeholder...}
+}
+
+@article{shi2022robust,
+  abbr={PR},
+  title={Robust convolutional neural networks against adversarial attacks on medical images},
+  author={Shi, Xiaoshuang and Peng, Yifan and Chen, Qingyu, et al.},
+  journal={Pattern Recognition},
+  volume={132},
+  pages={108923},
+  year={2022},
+  note={中科院JCR一区},
+  bibtex_show={true},
+  pdf={true},
+  code={true},
+  abstract={Abstract placeholder...}
+}
+
+@article{shi2022self,
+  abbr={PR},
+  title={Self-paced Resistance Learning against Overfitting on Noisy Labels},
+  author={Shi, Xiaoshuang and Guo, Zhenhua and Li, Kang and Liang, Yun and Zhu, Xiaofeng},
+  journal={Pattern Recognition},
+  pages={109080},
+  year={2022},
+  note={中科院JCR一区},
+  bibtex_show={true},
+  pdf={true},
+  code={true},
+  abstract={Abstract placeholder...}
+}
+
+@inproceedings{mo2022simple,
+  abbr={AAAI},
+  title={Simple Unsupervised Graph Representation Learning},
+  author={Mo, Yujie and Peng, Liang and Xu, Jie and Shi*, Xiaoshuang and Zhu, Xiaofeng},
+  booktitle={AAAI Conference on Artificial Intelligence},
+  year={2022},
+  note={CCF-A},
+  bibtex_show={true},
+  pdf={true},
+  code={true},
+  abstract={Abstract placeholder...}
+}
+
+@inproceedings{xu2022deep,
+  abbr={AAAI},
+  title={Deep Incomplete Multi-View Clustering via Mining Cluster Complementarity},
+  author={Xu, Jie and Li, Chao and Ren*, Yazhou and Peng, Liang and Mo, Yujie and Shi*, Xiaoshuang and Zhu, Xiaofeng},
+  booktitle={AAAI Conference on Artificial Intelligence},
+  year={2022},
+  note={CCF-A},
+  bibtex_show={true},
+  pdf={true},
+  code={true},
+  abstract={Abstract placeholder...}
+}
+
+@article{peng2022reverse,
+  abbr={TNNLS},
+  title={Reverse Graph Learning for Graph Neural Network},
+  author={Peng, Liang and Hu, Rongyao and Kong, Fei and Gan, Jiangzhang and Mo, Yujie and Shi*, Xiaoshuang and Zhu*, Xiaofeng},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  year={2022},
+  note={中科院JCR一区},
+  bibtex_show={true},
+  pdf={true},
+  code={true},
+  abstract={Abstract placeholder...}
+}
+
+@inproceedings{chen2023co,
+  abbr={MICCAI},
+  title={Co-assistant Networks for Label Correction},
+  author={Chen, Xuan and Fu, Weiheng and Li, Tian and Shi*, Xiaoshuang and Shen, Hengtao and Zhu, Xiaofeng},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)},
+  pages={159--168},
+  year={2023},
+  note={CCF-B},
+  bibtex_show={true},
+  pdf={true},
+  code={true},
+  abstract={Abstract placeholder...}
+}
+
+@inproceedings{duan2023improve,
+  abbr={IJCAI},
+  title={Improve video representation with temporal adversarial augmentation},
+  author={Duan, Jinhao and Fan, Quanfu and Cheng, Hao and Shi*, Xiaoshuang and Xu*, Kaidi},
+  booktitle={International Joint Conference on Artificial Intelligence (IJCAI)},
+  pages={708--716},
+  year={2023},
+  note={CCF-A},
+  bibtex_show={true},
+  pdf={true},
+  code={true},
+  abstract={Abstract placeholder...}
+}
+
+@article{zeng2024feature,
+  abbr={TNNLS},
+  title={Feature Noise Boosts DNN Generalization Under Label Noise},
+  author={Zeng, Lu and Chen, Xuan and Shi*, Xiaoshuang and Shen, Heng Tao},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  year={2024},
+  note={中科院JCR一区},
+  bibtex_show={true},
+  pdf={true},
+  code={true},
+  abstract={Abstract placeholder...}
+}
+
+@inproceedings{kong2024act,
+  abbr={CVPR},
+  title={ACT-Diffusion: Efficient Adversarial Consistency Training for One-step Diffusion Models},
+  author={Kong, Fei and Duan, Jinhao and Sun, Lichao and Cheng, Hao and Xu, Renjing and Shen, Hengtao and Zhu, Xiaofeng and Shi*, Xiaoshuang and Xu*, Kaidi},
+  booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages={8890--8899},
+  year={2024},
+  note={CCF-A},
+  bibtex_show={true},
+  pdf={true},
+  code={true},
+  abstract={Abstract placeholder...},
+  selected={true}
+}
+
+@article{wang2025word,
+  abbr={EAAI},
+  title={Word-sequence entropy: Towards uncertainty estimation in free-form medical question answering applications and beyond},
+  author={Wang, Zhiyuan and Duan, Jinhao and Yuan, Chenxi and Chen, Qingyu and Chen, Tianlong and Zhang, Yue and Wang, Ren and Shi*, Xiaoshuang and Xu, Kaidi},
+  journal={Engineering Applications of Artificial Intelligence},
+  volume={139},
+  pages={109553},
+  year={2025},
+  note={中科院JCR一区},
+  bibtex_show={true},
+  pdf={true},
+  code={true},
+  abstract={Abstract placeholder...}
+}
+
+@inproceedings{wang2025sconu,
+  abbr={ACL},
+  title={SConU: Selective Conformal Uncertainty in Large Language Models},
+  author={Wang, Zhiyuan and Wang, Qingni and Zhang, Yue and Chen, Tianlong and Zhu, Xiaofeng and Shi*, Xiaoshuang and Xu*, Kaidi},
+  booktitle={The Annual Meeting of the Association for Computational Linguistics (ACL)},
+  year={2025},
+  note={CCF-A},
+  bibtex_show={true},
+  pdf={true},
+  code={true},
+  abstract={Abstract placeholder...},
+  selected={true}
+}
+
+@inproceedings{shi2016kernel,
+  abbr={ECCV},
+  title={Kernel-based supervised discrete hashing for image retrieval},
+  author={Shi, Xiaoshuang and Xing, Fuyong and Cai, Jinzheng and Zhang, Zizhao and Xie, Yuanpu and Yang, Lin},
+  booktitle={European Conference on Computer Vision (ECCV)},
+  pages={419--433},
+  year={2016},
+  note={~26\% acceptance rate, CCF-B},
+  bibtex_show={true},
+  pdf={true},
+  code={true},
+  abstract={Abstract placeholder...}
+}
+
+@inproceedings{shi2017asymmetric,
+  abbr={AAAI},
+  title={Asymmetric discrete graph hashing},
+  author={Shi, Xiaoshuang and Xing, Fuyong and Xu, Kaidu and Sapkota, Manish and Yang, Lin},
+  booktitle={AAAI Conference on Artificial Intelligence},
+  pages={2541--2547},
+  year={2017},
+  note={Spotlight, ~25\% acceptance rate, CCF-A},
+  bibtex_show={true},
+  pdf={true},
+  code={true},
+  abstract={Abstract placeholder...}
+}
+
+@inproceedings{shi2017cell,
+  abbr={MICCAI},
+  title={Cell encoding for histopathology image classification},
+  author={Shi, Xiaoshuang and Xing, Fuyong and Xie, Yuanpu and Yang, Lin},
+  booktitle={International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)},
+  pages={30--38},
+  year={2017},
+  note={~32\% acceptance rate, CCF-B},
+  bibtex_show={true},
+  pdf={true},
+  code={true},
+  abstract={Abstract placeholder...}
+}
+
+@article{shi2017supervised,
+  abbr={MIA},
+  title={Supervised graph hashing for histopathology image retrieval and classification},
+  author={Shi, Xiaoshuang and Xing, Fuyong and Xu, Kaidi and Xie, Yuanpu and Su, Hai and Yang, Lin},
+  journal={Medical Image Analysis},
+  volume={42},
+  pages={117--128},
+  year={2017},
+  note={中科院JCR一区},
+  bibtex_show={true},
+  pdf={true},
+  code={true},
+  abstract={Abstract placeholder...}
+}
+
+@article{shi2018pairwise,
+  abbr={PR},
+  title={Pairwise based deep ranking hashing for histopathology image classification and retrieval},
+  author={Shi, Xiaoshuang and Sapkota, Manish and Xing, Fuyong and Liu, Fujun and Cui, Lei and Yang, Lin},
+  journal={Pattern Recognition},
+  volume={81},
+  pages={14--22},
+  year={2018},
+  note={中科院JCR一区},
+  bibtex_show={true},
+  pdf={true},
+  code={true},
+  abstract={Abstract placeholder...}
+}
+
+@article{shi2020anchor,
+  abbr={IJCV},
+  title={Anchor-Based Self-Ensembling for Semi-Supervised Deep Pairwise Hashing},
+  author={Shi, Xiaoshuang and Guo, Zhenhua and Xing, Fuyong and Liang, Yu and Yang, Lin},
+  journal={International Journal of Computer Vision},
+  pages={1-18},
+  year={2020},
+  note={CCF-A},
+  bibtex_show={true},
+  pdf={true},
+  code={true},
+  abstract={Abstract placeholder...}
+}
+
+@article{shi2021scalable,
+  abbr={TIP},
+  title={A Scalable Optimization Mechanism for Pairwise based Discrete Hashing},
+  author={Shi, Xiaoshuang and Xing, Fuyong and Zhang, Zizhao and Sapkota, Manish and Guo, Zhenhua and Yang, Lin},
+  journal={IEEE Transactions on Image Processing},
+  volume={30},
+  pages={1130--1142},
+  year={2021},
+  note={中科院JCR一区},
+  bibtex_show={true},
+  pdf={true},
+  code={true},
+  abstract={Abstract placeholder...}
+}
+
+@article{shi2014face,
+  abbr={PR},
+  title={Face recognition by sparse discriminant analysis via joint L2,1-norm minimization},
+  author={Shi, Xiaoshuang and Yang, Yujiu and Guo, Zhenhua and Lai, Zhihui},
+  journal={Pattern Recognition},
+  volume={47},
+  number={7},
+  pages={2447--2453},
+  year={2014},
+  note={中科院JCR一区},
+  bibtex_show={true},
+  pdf={true},
+  code={true},
+  abstract={Abstract placeholder...}
+}
+
+@article{shi2015framework,
+  abbr={TIP},
+  title={A Framework of Joint Graph Embedding and Sparse Regression for Dimensionality Reduction},
+  author={Shi, Xiaoshuang and Guo, Zhenhua and Lai, Zhihui and Yang, Yujiu and Bao, Zhifeng and Zhang, David},
+  journal={IEEE Transactions on Image Processing},
+  volume={24},
+  number={4},
+  pages={1341--1355},
+  year={2015},
+  note={中科院JCR一区},
+  bibtex_show={true},
+  pdf={true},
+  code={true},
+  abstract={Abstract placeholder...}
+}
+
+@article{shi2016two,
+  abbr={TPAMI},
+  title={Two-Dimensional Whitening Reconstruction for Enhancing Robustness of Principal Component Analysis},
+  author={Shi, Xiaoshuang and Guo, Zhenhua and Nie, Feiping and Yang, Lin and You, Jane and Tao, Dacheng},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  volume={38},
+  number={10},
+  pages={2130--2136},
+  year={2016},
+  note={中科院JCR一区},
+  bibtex_show={true},
+  pdf={true},
+  code={true},
+  abstract={Abstract placeholder...}
+}
+
+@article{shi2018self,
+  abbr={PR},
+  title={Self-learning for face clustering},
+  author={Shi, Xiaoshuang and Guo, Zhenhua and Xing, Fuyong and Cai, Jinzheng and Yang, Lin},
+  journal={Pattern Recognition},
+  volume={79},
+  pages={279--289},
+  year={2018},
+  note={中科院JCR一区},
+  bibtex_show={true},
+  pdf={true},
+  code={true},
+  abstract={Abstract placeholder...}
 }

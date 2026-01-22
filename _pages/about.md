@@ -9,9 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>办公室：主楼 A501</p>
-    <p>某某大学计算机学院</p>
-    <p>中国 北京 100000</p>
+    <p>电子科技大学计算机科学与工程学院</p>
+    <p>四川 成都 611731</p>
+    <p>Email: xsshi2021@uestc.edu.cn</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -29,9 +29,11 @@ latest_posts:
 
 ## 实验室简介
 
-欢迎来到我们的研究实验室！本实验室隶属于某某大学计算机学院，成立于2010年，致力于人工智能、软件工程、分布式系统等前沿领域的研究与创新。我们的使命是通过卓越的科研工作推动技术进步，培养具有国际视野的优秀研究人才。
+欢迎来到石小爽教授课题组！本课题组隶属于电子科技大学计算机科学与工程学院。
 
-实验室拥有先进的科研设备和良好的学术氛围，与国内外多所知名高校和研究机构保持密切合作。近年来，我们在顶级国际会议和期刊上发表了多篇高水平学术论文，承担了多项国家级科研项目，取得了一系列重要研究成果。
+主要研究方向为 **机器学习**、**模式识别** 和 **医学数据分析**。致力于解决视觉图像检索和分类中的特征编码与理解的问题，针对降低大数据计算和存储成本、解释图像重要特征、特征提取的鲁棒性等关键问题进行了深入的研究，在哈希编码优化、可解释深度神经网络和图学习等方法的理论以及医学应用上取得了多个创新性的研究成果。
+
+我们拥有一支充满活力和创新精神的科研团队，与国内外知名高校和研究机构保持紧密合作，期待与更多优秀人才共同探索科技前沿。
 
 ---
 
@@ -42,18 +44,17 @@ latest_posts:
         {% include figure.liquid path="assets/img/prof_pic.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-9 mt-3 mt-md-0">
-        <h4>张教授 博士</h4>
-        <p><strong>教授、博士生导师</strong></p>
-        <p>某某大学计算机学院</p>
-        <p>研究方向：人工智能、机器学习、深度学习、软件工程</p>
+        <h4>石小爽 教授</h4>
+        <p><strong>教授、博士生导师、优青（海外）</strong></p>
+        <p>电子科技大学计算机科学与工程学院</p>
+        <p><strong>研究方向：</strong>机器学习、模式识别、医学数据分析</p>
         <p>
-            张教授于2005年获得某某大学计算机科学博士学位，现任某某大学计算机学院教授、博士生导师。
-            主持国家自然科学基金项目3项，参与国家重点研发计划项目2项。在顶级国际会议和期刊（如NeurIPS、ICML、CVPR、TPAMI等）
-            发表学术论文60余篇，获得国际会议最佳论文奖2次。担任多个国际会议程序委员会委员和审稿人。
+            石小爽是电子科技大学教授，博士生导师，优青（海外）。主要研究方向为机器学习、模式识别、医学数据分析。致力于解决视觉图像检索和分类中的特征编码与理解的问题，针对降低大数据计算和存储成本、解释图像重要特征、特征提取的鲁棒性等关键问题进行了深入的研究，在哈希编码优化、可解释深度神经网络和图学习等方法的理论以及医学应用上取得了多个创新性的研究成果。近年来，累计在模式识别、计算机视觉和医学数据分析领域发表学术论文90余篇，其中TPAMI、IJCV、TIP、MIA、MICCAI等CCF-A类、中科院JCR-1区以及医学图像领域顶级会议发表论文70余篇（含CCF-A类、中科院JCR-1区一作和通讯作者30余篇），Google引用超过4000次。获得华为人才Funding, 先后主持国家自然科学基金面上项目1项，科技部重点研发/重大专项子课题2项和四川省科技厅面上项目1项。
         </p>
         <p>
             <a href="/cv/">查看完整简历</a> | 
-            <a href="mailto:zhang@university.edu">zhang@university.edu</a>
+            <a href="mailto:xsshi2021@uestc.edu.cn">xsshi2021@uestc.edu.cn</a> |
+            <a href="https://scholar.google.com/citations?user=PdxzdEAAAAAJ" target="_blank">Google Scholar</a>
         </p>
     </div>
 </div>
@@ -67,13 +68,11 @@ latest_posts:
     <div class="col-sm-6 mt-3">
       <div class="card hoverable">
         <div class="card-body">
-          <h5 class="card-title">智能代码生成系统</h5>
+          <h5 class="card-title">视觉图像特征编码和理解</h5>
           <p class="card-text">
-            基于大语言模型的智能代码生成与优化系统，支持多种编程语言，
-            能够根据自然语言描述自动生成高质量代码。该项目已在GitHub上开源，
-            获得3000+ stars。
+            针对降低大数据计算和存储成本、解释图像重要特征、特征提取的鲁棒性等关键问题进行了深入的研究。
           </p>
-          <p class="card-text"><small class="text-muted">2023-2025 | 国家自然科学基金</small></p>
+          <p class="card-text"><small class="text-muted">2023.01-2025.12 | 国家自然科学基金优青（海外）项目</small></p>
           <a href="/projects/" class="btn btn-sm btn-primary">了解更多</a>
         </div>
       </div>
@@ -82,12 +81,12 @@ latest_posts:
     <div class="col-sm-6 mt-3">
       <div class="card hoverable">
         <div class="card-body">
-          <h5 class="card-title">分布式机器学习框架</h5>
+          <h5 class="card-title">数字病理切片自动标注和检索</h5>
           <p class="card-text">
-            面向大规模深度学习训练的高效分布式计算框架，支持千卡级别的并行训练，
-            在多个基准测试中性能领先业界主流框架20%以上。
+            基于弱监督深度学习的方法，解决数字病理切片分析中的自动标注和检索问题，
+            提高病理诊断的效率和准确性。
           </p>
-          <p class="card-text"><small class="text-muted">2022-2024 | 国家重点研发计划</small></p>
+          <p class="card-text"><small class="text-muted">2023.01-2026.12 | 国家自然科学基金面上项目</small></p>
           <a href="/projects/" class="btn btn-sm btn-primary">了解更多</a>
         </div>
       </div>
@@ -98,12 +97,11 @@ latest_posts:
     <div class="col-sm-6 mt-3">
       <div class="card hoverable">
         <div class="card-body">
-          <h5 class="card-title">安全漏洞检测工具</h5>
+          <h5 class="card-title">支持机器学习自动化的元学习</h5>
           <p class="card-text">
-            结合静态分析和动态测试的智能漏洞检测系统，已成功应用于多家企业的
-            安全审计工作，发现并修复了数百个关键安全漏洞。
+            研究支持机器学习自动化的元学习理论与应用，探索如何通过元学习实现机器学习模型的快速适应和自动化构建。
           </p>
-          <p class="card-text"><small class="text-muted">2021-2023 | 企业合作项目</small></p>
+          <p class="card-text"><small class="text-muted">2022.12-2027.11 | 科技部重点研发子课题</small></p>
           <a href="/projects/" class="btn btn-sm btn-primary">了解更多</a>
         </div>
       </div>
@@ -112,12 +110,11 @@ latest_posts:
     <div class="col-sm-6 mt-3">
       <div class="card hoverable">
         <div class="card-body">
-          <h5 class="card-title">多模态理解系统</h5>
+          <h5 class="card-title">慢病诊疗医学决定水平研究</h5>
           <p class="card-text">
-            融合视觉、语言、音频等多模态信息的智能理解系统，在图像描述生成、
-            视频问答等任务上达到国际先进水平。
+            针对重大慢病诊疗中的关键检验项目，研究医学决定水平的建立与应用，为慢病诊疗提供科学依据。
           </p>
-          <p class="card-text"><small class="text-muted">2024-2026 | 国家自然科学基金重点项目</small></p>
+          <p class="card-text"><small class="text-muted">2025.08-2029.07 | 科技部重大专项子课题</small></p>
           <a href="/projects/" class="btn btn-sm btn-primary">了解更多</a>
         </div>
       </div>

@@ -1,97 +1,104 @@
-- title: General Information
+- title: 个人介绍
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - name: 简介
+      value: 石小爽是电子科技大学教授，博士生导师，优青（海外）。主要研究方向为机器学习、模式识别、医学数据分析。致力于解决视觉图像检索和分类中的特征编码与理解的问题，针对降低大数据计算和存储成本、解释图像重要特征、特征提取的鲁棒性等关键问题进行了深入的研究，在哈希编码优化、可解释深度神经网络和图学习等方法的理论以及医学应用上取得了多个创新性的研究成果。近年来，累计在模式识别、计算机视觉和医学数据分析领域发表学术论文90余篇，其中TPAMI、IJCV、TIP、MIA、MICCAI等CCF-A类、中科院JCR-1区以及医学图像领域顶级会议发表论文70余篇（含CCF-A类、中科院JCR-1区一作和通讯作者30余篇），Google引用超过4000次。获得华为人才Funding, 先后主持国家自然科学基金面上项目1项，科技部重点研发/重大专项子课题2项和四川省科技厅面上项目1项。
 
-- title: Education
+- title: 研究领域
+  type: map
+  contents:
+    - name: 机器学习
+      value: 非凸问题优化、离散优化、深度神经网络的可解释性和鲁棒性
+    - name: 医学数据分析
+      value: 基因、病理图像、MRI图像、CT图像、临床文本
+
+- title: 教育背景
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: 生物医学工程博士
+      institution: 佛罗里达大学，盖恩斯维尔，佛罗里达，美国
+      year: 05.2015 – 12.2019
+    - title: 自动化硕士
+      institution: 清华大学，北京，中国
+      year: 08.2010 – 07.2013
+    - title: 自动化本科
+      institution: 西北工业大学，西安，中国
+      year: 08.2005 – 07.2009
 
-- title: Experience
+- title: 研究经历
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: 教授（博士生导师）
+      institution: 电子科技大学
+      year: 06. 2021 – 至今
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - 深度神经网络的可解释性和鲁棒性
+        - 多模态医学数据分析
+    - title: 博士后
+      institution: 美国国立卫生研究院
+      year: 01. 2020 – 04.2021
       description:
-        - Description 1.
-        - Description 2.
+        - 卷积神经网络在对抗医学图像的鲁棒性
+        - CT图像的弱监督学习
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: 主持项目
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: 国家自然科学基金优青（海外）项目
+      institution: 视觉图像特征编码和理解
+      year: 2023.01-2025.12
+    - title: 国家自然科学基金面上项目
+      institution: 基于弱监督深度学习的数字病理切片的自动标注和检索
+      year: 2023.01-2026.12
+    - title: 科技部重点研发子课题
+      institution: 支持机器学习自动化的元学习理论与应用
+      year: 2022.12-2027.11
+    - title: 科技部重大专项子课题
+      institution: 重大慢病诊疗关键检验项目医学决定水平的建立与应用研究
+      year: 2025.08-2029.07
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: 代表性文章
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: 深度神经网络可解释性研究
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - "1. Xiaoshuang Shi, Fuyong Xing, Yuanpu Xie, Zizhao Zhang, Lei Cui, Lin Yang, ``Loss-based attention for deep multiple instance learning’’, AAAI Conference on Artificial Intelligence (AAAI), 2020. [~20% acceptance rate] (spotlight) (CCF-A 会议)"
+        - "2. Xiaoshuang Shi, Fuyong Xing, Kaidi Xu, Pingjun Chen, Yun Liang, Zhiyong Lu and Zhenhua Guo, ``Loss-based Attention for Interpreting Image-level Prediction of Convolutional Neural Networks”, IEEE Transactions on Image Processing, 30:1662-1675, 2021. (CCF-A 期刊)"
+        - "3. Hengxin Li+, Xiaoshuang Shi+, Xiaofeng Zhu, Shuihua Wang, Zheng Zhang, FSNet: Dual Interpretable Graph Convolutional Network for Alzheimer's Disease Analysis. IEEE Transactions on Emerging Topics in Computational Intelligence, 2022. (中科院JCR二区期刊)"
+        - "4. Xiao, Tingsong, Lu Zeng, Xiaoshuang Shi*, Xiaofeng Zhu*, and Guorong Wu. ``Dual-graph learning convolutional networks for interpretable alzheimer’s disease diagnosis’’. In International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), pp. 406-415, 2022. (CCF-B 会议)"
+        - "5. Hangchen Xiang, Junyi Shen, Qingguo Yan, Meilian Xu*, Xiaoshuang Shi*, and Xiaofeng Zhu. ``Multi-scale representation attention based deep multiple instance learning for gigapixel whole slide image analysis’’. Medical Image Analysis 89: 102890, 2023. (中科院JCR一区期刊)"
+        - "6. Mengmeng Zhan, Xiaoshuang Shi*, Fangqi Liu, and Rongyao Hu. ``IGCNN-FC: Boosting interpretability and generalization of convolutional neural networks for few chest X-rays analysis’’. Information Processing & Management 60: 103258, 2023. (中科院JCR一区期刊)"
+        - "7. Jinghao Xu, Chenxi Yuan, Xiaochuan Ma, Huifang Shang*, Xiaoshuang Shi*, and Xiaofeng Zhu. ``Interpretable medical deep framework by logits-constraint attention guiding graph-based multi-scale fusion for Alzheimer’s disease analysis’’. Pattern Recognition 152: 110450, 2024. (中科院JCR一区期刊)"
+        - "8. Jincheng Huang, Jialie Shen, Xiaoshuang Shi*, and Xiaofeng Zhu*. ``On Which Nodes Does GCN Fail? Enhancing GCN From the Node Perspective’’. In International Conference on Machine Learning (ICML). 2024. (CCF-A 会议)"
+        - "9. Jin Sun, Xiaoshuang Shi*, Zhiyuan Wang, Kaidi Xu, Heng Tao Shen, and Xiaofeng Zhu. ``Caterpillar: A Pure-MLP Architecture with Shifted-Pillars-Concatenation’’. In Proceedings of the ACM International Conference on Multimedia (ACM MM), pp. 7123-7132. 2024. (CCF-A 会议)"
+        - "10. Jin, Haochen, Junyi Shen, Lei Cui, Xiaoshuang Shi*, Kang Li*, and Xiaofeng Zhu. ``Dynamic graph based weakly supervised deep hashing for whole slide image classification and retrieval.’’ Medical Image Analysis, pp. 103468, 2025. (中科院JCR一区期刊)"
+        - "11. Xu, Jinghao, Chenxi Yuan, Yi Jing, Huifang Shang*, Xiaoshuang Shi*, and Xiaofeng Zhu. ``Interpretable multi-view fusion network via multi-view dual alignment and private bias filtering for Alzheimer’s disease analysis.’’ Information Fusion (2025): 103579. (中科院JCR一区期刊)"
+    - title: 深度神经网络鲁棒性研究
       items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+        - "12. Xiaoshuang Shi, Hai Su, Fuyong Xing, Yun Liang, Gang Qu, Lin Yang, ``Graph temporal ensembling based semi-supervised convolutional neural network with noisy labels for histopathology image analysis’’, Medical Image Analysis, vol. 60, 101624, 2020. (中科院JCR一区期刊)"
+        - "13. Xiaoshuang Shi, Yifan Peng, Qingyu Chen, et al., ``Robust convolutional neural networks against adversarial attacks on medical images’’, Pattern Recognition, 132: 108923, 2022. (中科院JCR一区期刊)"
+        - "14. Xiaoshuang Shi, Zhenhua Guo, Kang Li, Yun Liang, and Xiaofeng Zhu. ``Self-paced Resistance Learning against Overfitting on Noisy Labels’’. Pattern Recognition, 109080, 2022. (中科院JCR一区期刊)"
+        - "15. Yujie Mo, Liang Peng, Jie Xu, Xiaoshuang Shi*, and Xiaofeng Zhu. ``Simple Unsupervised Graph Representation Learning’’. AAAI Conference on Artificial Intelligence (AAAI), 2022. (CCF-A 会议)"
+        - "16. Jie Xu, Chao Li, Yazhou Ren*, Liang Peng, Yujie Mo, Xiaoshuang Shi*, Xiaofeng Zhu. ``Deep Incomplete Multi-View Clustering via Mining Cluster Complementarity’’. AAAI Conference on Artificial Intelligence (AAAI), 2022. (CCF-A 会议)"
+        - "17. Liang Peng, Rongyao Hu, Fei Kong, Jiangzhang Gan, Yujie Mo, Xiaoshuang Shi*, Xiaofeng Zhu*. ``Reverse Graph Learning for Graph Neural Network’’. IEEE Transactions on Neural Networks and Learning Systems, 2022. (中科院JCR一区期刊)"
+        - "18. Chen, Xuan, Weiheng Fu, Tian Li, Xiaoshuang Shi*, Hengtao Shen, and Xiaofeng Zhu. ``Co-assistant Networks for Label Correction’’. In International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), pp. 159-168, 2023. (CCF-B 会议)"
+        - "19. Duan, Jinhao, Quanfu Fan, Hao Cheng, Xiaoshuang Shi*, and Kaidi Xu*. ``Improve video representation with temporal adversarial augmentation’’. In Proceedings of the Thirty-Second International Joint Conference on Artificial Intelligence (IJCAI), pp. 708-716, 2023. (CCF-A 会议)"
+        - "20. Zeng, Lu, Xuan Chen, Xiaoshuang Shi*, and Heng Tao Shen. ``Feature Noise Boosts DNN Generalization Under Label Noise’’. IEEE Transactions on Neural Networks and Learning Systems, 2024. (中科院JCR一区期刊)"
+        - "21. Kong, Fei, Jinhao Duan, Lichao Sun, Hao Cheng, Renjing Xu, Hengtao Shen, Xiaofeng Zhu, Xiaoshuang Shi*, and Kaidi Xu*. ``ACT-Diffusion: Efficient Adversarial Consistency Training for One-step Diffusion Models’’. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pp. 8890-8899, 2024. (CCF-A 会议)"
+        - "22. Wang, Zhiyuan, Jinhao Duan, Chenxi Yuan, Qingyu Chen, Tianlong Chen, Yue Zhang, Ren Wang, Xiaoshuang Shi*, and Kaidi Xu. ``Word-sequence entropy: Towards uncertainty estimation in free-form medical question answering applications and beyond.’’ Engineering Applications of Artificial Intelligence 139: 109553, 2025. (中科院JCR一区期刊)"
+        - "23. Wang, Zhiyuan, Qingni Wang, Yue Zhang, Tianlong Chen, Xiaofeng Zhu, Xiaoshuang Shi*, and Kaidi Xu*. ``SConU: Selective Conformal Uncertainty in Large Language Models.’’ The Annual Meeting of the Association for Computational Linguistics (ACL), 2025. (CCF-A 会议)"
+    - title: 哈希编码和优化
+      items:
+        - "24. Xiaoshuang Shi, Fuyong Xing, Jinzheng Cai, Zizhao Zhang, Yuanpu Xie, Lin Yang, ``Kernel-based supervised discrete hashing for image retrieval'', European Conference on Computer Vision (ECCV), pp.419-433, 2016. [~26% acceptance rate] (CCF-B 会议)"
+        - "25. Xiaoshuang Shi, Fuyong Xing, Kaidu Xu, Manish Sapkota, Lin Yang, ``Asymmetric discrete graph hashing’’, AAAI Conference on Artificial Intelligence (AAAI), pp. 2541-2547, 2017. [~25% acceptance rate] (spotlight) (CCF-A 会议)"
+        - "26. Xiaoshuang Shi, Fuyong Xing, Yuanpu Xie, Lin Yang, ``Cell encoding for histopathology image classification’’, International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI), pp. 30-38, 2017. [~32% acceptance rate] (CCF-B 会议)"
+        - "27. Xiaoshuang Shi, Fuyong Xing, Kaidi Xu, Yuanpu Xie, Hai Su, Lin Yang, ``Supervised graph hashing for histopathology image retrieval and classification'', Medical Image Analysis, vol. 42, pp. 117-128, 2017. (中科院JCR一区期刊)"
+        - "28. Xiaoshuang Shi, Manish Sapkota, Fuyong Xing, Fujun Liu, Lei Cui, Lin Yang, ``Pairwise based deep ranking hashing for histopathology image classification and retrieval’’, Pattern Recognition, vol. 81, pp. 14-22, 2018. (中科院JCR一区期刊)"
+        - "29. Xiaoshuang Shi, Zhenhua Guo, Fuyong Xing, Yu Liang, Lin Yang, ``Anchor-Based Self-Ensembling for Semi-Supervised Deep Pairwise Hashing’’. International Journal of Computer Vision, 1-18, 2020. (CCF-A 期刊)"
+        - "30. Xiaoshuang Shi, Fuyong Xing, Zizhao Zhang, Manish Sapkota, Zhenhua Guo, Lin Yang, ``A Scalable Optimization Mechanism for Pairwise based Discrete Hashing’’, IEEE Transactions on Image Processing, 30: 1130-1142, 2021. (中科院JCR一区期刊)"
+    - title: 子空间学习
+      items:
+        - "31. Xiaoshuang Shi, Yujiu Yang, Zhenhua Guo, Zhihui Lai,``Face recognition by sparse discriminant analysis via joint L2,1-norm minimization’’, Pattern Recognition, 47(7): 2447-2453, 2014. (中科院JCR一区期刊)"
+        - "32. Xiaoshuang Shi, Zhenhua Guo, Zhihui Lai, Yujiu Yang, Zhifeng Bao, David Zhang, ``A Framework of Joint Graph Embedding and Sparse Regression for Dimensionality Reduction’’, IEEE Transactions on Image Processing, 24(4): 1341-1355, 2015. (中科院JCR一区期刊)"
+        - "33. Xiaoshuang Shi, Zhenhua Guo, Feiping Nie, Lin Yang, Jane You, Dacheng Tao, ``Two-Dimensional Whitening Reconstruction for Enhancing Robustness of Principal Component Analysis’’, IEEE Transactions on Pattern Analysis and Machine Intelligence. 38(10): 2130-2136, 2016. (中科院JCR一区期刊)"
+        - "34. Xiaoshuang Shi, Zhenhua Guo, Fuyong Xing, Jinzheng Cai, Lin Yang, ``Self-learning for face clustering’’, Pattern Recognition, vol. 79, pp. 279-289, 2018. (中科院JCR一区期刊)"

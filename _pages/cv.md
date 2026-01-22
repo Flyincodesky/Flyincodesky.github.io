@@ -1,11 +1,11 @@
 ---
 layout: cv
 permalink: /cv/
-title: cv
+title: 个人简历
 nav: false
-nav_order: 5
-cv_pdf: example_pdf.pdf # you can also use external links here
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+nav_order: 7
+cv_pdf: shi_xiaoshuang_cv.pdf
+description: 石小爽教授 - 电子科技大学计算机科学与工程学院 教授、博士生导师
 toc:
   sidebar: left
 ---

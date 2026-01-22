@@ -75,32 +75,31 @@ nav_order: 2
       </div>
       <div class="col-md-9">
         <div class="member-info">
-          <h4>张教授 博士</h4>
-          <p class="member-meta">教授、博士生导师 | IEEE Fellow</p>
-          <p class="member-meta">某某大学计算机学院</p>
+          <h4>石小爽 教授</h4>
+          <p class="member-meta">教授、博士生导师、优青（海外）</p>
+          <p class="member-meta">电子科技大学计算机科学与工程学院</p>
           
           <div class="member-research">
-            <p><strong>研究方向：</strong>人工智能、机器学习、深度学习、软件工程、程序分析</p>
+            <p><strong>研究方向：</strong>机器学习、模式识别、医学数据分析</p>
           </div>
           
           <div class="member-bio">
             <p>
-              张教授于2005年获得某某大学计算机科学博士学位。研究兴趣包括人工智能、机器学习、
-              软件工程等领域。主持国家自然科学基金项目3项、国家重点研发计划子课题2项，
-              参与多项国家级和省部级科研项目。在NeurIPS、ICML、CVPR、ICSE、FSE、TPAMI等
-              顶级国际会议和期刊发表学术论文60余篇，Google Scholar引用2000+次。
-              获得国际会议最佳论文奖2次、省部级科技奖1项。
+              石小爽是电子科技大学教授，博士生导师，优青（海外）。主要研究方向为机器学习、
+              模式识别、医学数据分析。致力于解决视觉图像检索和分类中的特征编码与理解的问题，
+              针对降低大数据计算和存储成本、解释图像重要特征、特征提取的鲁棒性等关键问题进行了深入的研究。
             </p>
             <p>
-              担任多个国际会议程序委员会委员（ICSE、FSE、ASE、AAAI等）、期刊审稿人
-              （TSE、TOSEM、JSS等）。指导研究生20余名，其中已毕业博士生5名、硕士生12名，
-              多名学生获得国家奖学金和校级优秀毕业生称号。
+              在哈希编码优化、可解释深度神经网络和图学习等方法的理论以及医学应用上取得了多个创新性的研究成果。
+              近年来，累计在模式识别、计算机视觉和医学数据分析领域发表学术论文90余篇，
+              其中TPAMI、IJCV、TIP、MIA、MICCAI等CCF-A类、中科院JCR-1区以及医学图像领域顶级会议发表论文70余篇，
+              Google引用超过4000次。
             </p>
           </div>
           
           <div class="member-contact">
             <a href="/cv/"><i class="fas fa-file-alt"></i> 完整简历</a>
-            <a href="mailto:zhang@university.edu"><i class="fas fa-envelope"></i> zhang@university.edu</a>
+            <a href="mailto:xsshi2021@uestc.edu.cn"><i class="fas fa-envelope"></i> xsshi2021@uestc.edu.cn</a>
             <a href="https://scholar.google.com" target="_blank"><i class="ai ai-google-scholar"></i> Google Scholar</a>
           </div>
         </div>

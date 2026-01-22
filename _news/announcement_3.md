@@ -1,8 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2024-05-01 10:00:00-0400
 inline: true
-related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+论文 *On Which Nodes Does GCN Fail? Enhancing GCN From the Node Perspective* 被 **ICML 2024 (CCF-A)** 录用.

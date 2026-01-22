@@ -1,8 +1,7 @@
 ---
 layout: post
-date: 2026-01-15 10:00:00+0800
+date: 2024-06-01 10:00:00-0400
 inline: true
-related_posts: false
 ---
 
-我们的论文《基于深度学习的代码漏洞检测方法》被 ICSE 2026 录用！:tada:
+论文 *ACT-Diffusion: Efficient Adversarial Consistency Training for One-step Diffusion Models* 被 **CVPR 2024 (CCF-A)** 录用.
