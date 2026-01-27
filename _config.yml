@@ -2,17 +2,16 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: 石小爽课题组
+title: TIM Lab
 first_name: Xiaoshuang
 middle_name: 
 last_name: Shi
 contact_note: >
   欢迎通过邮件或电话联系我们
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  石小爽课题组 - 电子科技大学。专注于机器学习、模式识别、医学数据分析等领域的研究与创新。
+  可信智能医疗实验室 (Trust Intelligent Medical Lab) - 电子科技大学计算机科学与工程学院（网络空间安全学院）。主要研究方向是机器学习、模式识别、多模态医学数据分析。
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  © 2026 石小爽课题组. All rights reserved.
+  © 2026 可信智能医疗实验室. All rights reserved.
 keywords: 实验室, 研究, 机器学习, 模式识别, 医学数据分析, 电子科技大学, 石小爽 # add your own keywords or leave empty
 lang: zh-CN # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🔬 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
