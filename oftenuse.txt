@@ -14,3 +14,6 @@ git commit -m ""
 git push origin main
 
 git pull origin main	在修改前运行一下，确保本地代码和云端是最同步的。
+
+#运行脚本生成论文预览图
+python _scripts/generate_firstpage_previews.py
