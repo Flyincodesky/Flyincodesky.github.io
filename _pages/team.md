@@ -344,7 +344,34 @@ nav_order: 2
       </div>
     </div>
   </div>
-  
+
+  <div class="team-member">
+    <div class="row">
+      <div class="col-md-3 text-center">
+        {% include figure.liquid path="assets/img/team_member/wanghongfei.jpeg" class="member-photo" %}
+      </div>
+      <div class="col-md-9">
+        <div class="member-info">
+          <h4>王宏飞</h4>
+          <p class="member-meta">2025级 硕士生</p>
+          
+          <div class="member-research">
+            <p><strong>研究方向：</strong>可信医学大模型</p>
+          </div>
+          
+          <p>
+            2025年获新生奖学金一等奖；2024年获国家奖学金。
+          </p>
+          
+          <div class="member-contact">
+            <a href="mailto:uestcwhf@163.com"><i class="fas fa-envelope"></i> uestcwhf@163.com</a>
+            <a href="https://github.com/Flyincodesky" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="team-member">
     <div class="row">
       <div class="col-md-3 text-center">
@@ -432,6 +459,28 @@ nav_order: 2
           
           <div class="member-contact">
             <a href="mailto:18408203141@163.com"><i class="fas fa-envelope"></i> 18408203141@163.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="team-member">
+    <div class="row">
+      <div class="col-md-3 text-center">
+        {% include figure.liquid path="assets/img/team_member/default.png" class="member-photo" %}
+      </div>
+      <div class="col-md-9">
+        <div class="member-info">
+          <h4>何灵立可</h4>
+          <p class="member-meta">2025级 硕士生</p>
+          
+          <div class="member-research">
+            <p><strong>研究方向：</strong>医学半监督分类研究</p>
+          </div>
+          
+          <div class="member-contact">
+            <a href="mailto:202522080617@std.uestc.edu.cn"><i class="fas fa-envelope"></i> 202522080617@std.uestc.edu.cn</a>
           </div>
         </div>
       </div>
