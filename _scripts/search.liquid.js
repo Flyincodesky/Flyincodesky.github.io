@@ -17,6 +17,15 @@ ninja.data = [
       window.location.href = "{{ '/' | relative_url }}";
     },
   },
+  {
+    id: "person-shixiaoshuang",
+    title: "石小爽 教授 (Xiaoshuang Shi)",
+    description: "教授、博士生导师、国家青年特聘专家 - 机器学习、模式识别、医学数据分析",
+    section: "团队成员",
+    handler: () => {
+      window.location.href = "{{ '/team/#shixiaoshuang' | relative_url }}";
+    },
+  },
   {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
   {%- for p in sorted_pages -%}
     {%- if p.nav and p.autogen == null -%}

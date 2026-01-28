@@ -15,7 +15,7 @@ nav_order: 6
 
 .contact-card {
   padding: 2rem;
-  border: 1px solid #dee2e6;
+  border: 1px solid var(--global-divider-color);
   border-radius: 8px;
   background: #f8f9fa;
   margin-bottom: 2rem;
@@ -30,7 +30,7 @@ nav_order: 6
 .contact-title {
   font-size: 1.3rem;
   font-weight: bold;
-  color: #2c3e50;
+  color: var(--global-text-color);
   margin-bottom: 1rem;
 }
 
@@ -39,7 +39,7 @@ nav_order: 6
 }
 
 .contact-info a {
-  color: #3498db;
+  color: var(--global-theme-color);
   text-decoration: none;
 }
 
@@ -52,7 +52,7 @@ nav_order: 6
   height: 400px;
   border-radius: 8px;
   overflow: hidden;
-  border: 1px solid #dee2e6;
+  border: 1px solid var(--global-divider-color);
 }
 </style>
 

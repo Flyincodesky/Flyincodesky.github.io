@@ -12,7 +12,7 @@ nav_order: 5
   margin-bottom: 3rem;
   padding: 2rem;
   border-left: 4px solid #3498db;
-  background: #f8f9fa;
+  background: var(--global-card-bg-color);
   border-radius: 4px;
 }
 
@@ -26,12 +26,12 @@ nav_order: 5
 .activity-title {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #2c3e50;
+  color: var(--global-text-color);
   margin: 0;
 }
 
 .activity-date {
-  color: #7f8c8d;
+  color: var(--global-text-color-light);
   font-size: 0.95rem;
 }
 

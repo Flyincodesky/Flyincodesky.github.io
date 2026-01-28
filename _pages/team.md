@@ -68,7 +68,7 @@ nav_order: 2
 ## 导师
 
 <div class="team-section">
-  <div class="team-member">
+  <div id="shixiaoshuang" class="team-member">
     <div class="row">
       <div class="col-md-3 text-center">
         {% include figure.liquid path="assets/img/shixiaoshuang.jpg" class="member-photo" %}
@@ -76,7 +76,7 @@ nav_order: 2
       <div class="col-md-9">
         <div class="member-info">
           <h4>石小爽 教授 (Xiaoshuang Shi)</h4>
-          <p class="member-meta">教授、博士生导师、优青（海外）</p>
+          <p class="member-meta">教授、博士生导师、国家青年特聘专家</p>
           <p class="member-meta">电子科技大学计算机科学与工程学院（网络空间安全学院）</p>
           
           <div class="member-research">
@@ -85,7 +85,7 @@ nav_order: 2
           
           <div class="member-bio">
             <p>
-              石小爽是电子科技大学教授，博士生导师，优青（海外）。主要研究方向为机器学习、
+              石小爽是电子科技大学教授，博士生导师，国家青年特聘专家。主要研究方向为机器学习、
               模式识别、医学数据分析。致力于解决视觉图像检索和分类中的特征编码与理解的问题，
               针对降低大数据计算和存储成本、解释图像重要特征、特征提取的鲁棒性等关键问题进行了深入的研究。
             </p>

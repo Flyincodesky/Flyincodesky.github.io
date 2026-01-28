@@ -3,6 +3,22 @@
  ******************************************************************************/
 
 // Typography
+// 改全局字体
+body {
+  font-family: "Times New Roman", "SimSun", "宋体", "STSong", serif;
+  background: linear-gradient(135deg, var(--global-body-bg-gradient-from) 0%, var(--global-body-bg-gradient-to) 100%);
+  background-attachment: fixed;
+}
+
+.container {
+  background: var(--global-container-bg-color);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border-radius: 14px;
+  padding: 2rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--global-container-border-color);
+}
 
 p,
 h1,
@@ -17,6 +33,7 @@ li,
 span,
 strong {
   color: var(--global-text-color);
+  font-family: inherit;
 }
 
 hr {
@@ -249,8 +266,9 @@ ul.task-list input[type="checkbox"] {
 .navbar {
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
-  background-color: var(--global-bg-color);
-  opacity: 0.95;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .navbar .dropdown-menu,
@@ -487,10 +505,14 @@ ul.task-list input[type="checkbox"] {
 
 // Footer
 footer.fixed-bottom {
-  background-color: var(--global-footer-bg-color);
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   font-size: 0.75rem;
 
   .container {
+    background: transparent;
+    box-shadow: none;
     color: var(--global-footer-text-color);
     padding-top: 9px;
     padding-bottom: 8px;
@@ -508,12 +530,16 @@ footer.fixed-bottom {
 }
 
 footer.sticky-bottom {
-  border-top: 1px solid var(--global-divider-color);
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 0.9rem;
 
   .container {
+    background: transparent;
+    box-shadow: none;
     text-align: center;
   }
 }
