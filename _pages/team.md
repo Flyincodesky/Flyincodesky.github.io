@@ -284,13 +284,31 @@ nav_order: 2
         <div class="member-info">
           <h4>刘梓涵</h4>
           <p class="member-meta">2024级 硕士生</p>
-          
           <div class="member-research">
             <p><strong>研究方向：</strong>神经网络基础模块优化研究</p>
           </div>
-          
           <div class="member-contact">
             <a href="mailto:2972592837@qq.com"><i class="fas fa-envelope"></i> 2972592837@qq.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="team-member">
+    <div class="row">
+      <div class="col-md-3 text-center">
+        {% include figure.liquid path="assets/img/team_member/default.png" class="member-photo" %}
+      </div>
+      <div class="col-md-9">
+        <div class="member-info">
+          <h4>刘天琪</h4>
+          <p class="member-meta">2024级 硕士生</p>
+          <div class="member-research">
+            <p><strong>研究方向：</strong>医学图像分类模型轻量化研究</p>
+          </div>
+          <div class="member-contact">
+            <a href="mailto:htsnmk5239@163.com"><i class="fas fa-envelope"></i> htsnmk5239@163.com</a>
           </div>
         </div>
       </div>
