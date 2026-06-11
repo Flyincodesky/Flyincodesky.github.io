@@ -91,113 +91,33 @@ nav_order: 5
 
 ---
 
-## 2025年活动
+{% assign activities = site.news | sort: "date" | reverse %}
+{% assign current_year = "" %}
 
-<div class="activity-item">
-  <div class="activity-header">
-    <div>
-      <span class="activity-type type-project">科研项目</span>
-      <h3 class="activity-title">科技部重大专项子课题</h3>
-    </div>
-    <div class="activity-date">2025年8月1日</div>
-  </div>
-  
-  <div class="activity-content">
-    <p>
-      <strong>主持项目：</strong>重大慢病诊疗关键检验项目医学决定水平的建立与应用研究 (2025.08-2029.07)
-    </p>
-  </div>
-</div>
-
-<div class="activity-item">
-  <div class="activity-header">
-    <div>
-      <span class="activity-type type-paper">论文录用</span>
-      <h3 class="activity-title">ACL 2025 (CCF-A)</h3>
-    </div>
-    <div class="activity-date">2025年5月1日</div>
-  </div>
-  
-  <div class="activity-content">
-    <p>
-      论文 <em>SConU: Selective Conformal Uncertainty in Large Language Models</em> 被顶会 ACL 2025 录用。
-    </p>
-  </div>
-</div>
-
+{% for item in activities %}
+  {% assign item_year = item.date | date: "%Y" %}
+  {% if item_year != current_year %}
+    {% unless forloop.first %}
 ---
-
-## 2024年活动
-
-<div class="activity-item">
-  <div class="activity-header">
-    <div>
-      <span class="activity-type type-paper">论文录用</span>
-      <h3 class="activity-title">CVPR 2024 (CCF-A)</h3>
-    </div>
-    <div class="activity-date">2024年6月1日</div>
-  </div>
-  
-  <div class="activity-content">
-    <p>
-      论文 <em>ACT-Diffusion: Efficient Adversarial Consistency Training for One-step Diffusion Models</em> 被顶会 CVPR 2024 录用。
-    </p>
-  </div>
-</div>
+    {% endunless %}
+## {{ item_year }}年活动
+    {% assign current_year = item_year %}
+  {% endif %}
 
 <div class="activity-item">
   <div class="activity-header">
     <div>
-      <span class="activity-type type-paper">论文录用</span>
-      <h3 class="activity-title">ICML 2024 (CCF-A)</h3>
+      <span class="activity-type {{ item.activity_class | default: 'type-paper' }}">{{ item.activity_type | default: '新闻动态' }}</span>
+      <h3 class="activity-title">{{ item.activity_title | default: item.title | default: '实验室动态' }}</h3>
     </div>
-    <div class="activity-date">2024年5月1日</div>
+    <div class="activity-date">{{ item.date | date: "%Y年%-m月%-d日" }}</div>
   </div>
-  
+
   <div class="activity-content">
-    <p>
-      论文 <em>On Which Nodes Does GCN Fail? Enhancing GCN From the Node Perspective</em> 被顶会 ICML 2024 录用。
-    </p>
+    {{ item.content }}
   </div>
 </div>
-
----
-
-## 2023年活动
-
-<div class="activity-item">
-  <div class="activity-header">
-    <div>
-      <span class="activity-type type-project">科研项目</span>
-      <h3 class="activity-title">国家自然科学基金面上项目</h3>
-    </div>
-    <div class="activity-date">2023年1月2日</div>
-  </div>
-  
-  <div class="activity-content">
-    <p>
-      <strong>主持项目：</strong>基于弱监督深度学习的数字病理切片的自动标注和检索 (2023.01-2026.12)
-    </p>
-  </div>
-</div>
-
-<div class="activity-item">
-  <div class="activity-header">
-    <div>
-      <span class="activity-type type-award">人才项目</span>
-      <h3 class="activity-title">国家优秀青年科学基金项目（海外）</h3>
-    </div>
-    <div class="activity-date">2023年1月1日</div>
-  </div>
-  
-  <div class="activity-content">
-    <p>
-      <strong>获得资助：</strong>视觉图像特征编码和理解 (2023.01-2025.12)
-    </p>
-  </div>
-</div>
-
----
+{% endfor %}
 
 <div class="text-center mt-5 mb-5">
   <h4>了解更多实验室动态</h4>
